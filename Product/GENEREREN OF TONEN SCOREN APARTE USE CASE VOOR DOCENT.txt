@@ -1,0 +1,4 @@
+genereren scoren moet nog worden gemaakt als apare use case voor de docent
+pas niet in uitvoeren kennistoets vanwege verschillende primary actor
+
+Use case moet dan nog worden uitgewerkt in fully dressed + sequence diagram
