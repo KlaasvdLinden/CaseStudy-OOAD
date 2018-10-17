@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3aa3f837-11d5-4dab-a452-3f6afdf206ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3. Fully-dressed en activity flow/~$lly dressed use cases.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4. Domeinmodel (deel 1)/Domainmodel V2.asta" beforeDir="false" afterPath="$PROJECT_DIR$/../4. Domeinmodel (deel 1)/Domainmodel V2.asta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Antwoord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/TekstAntwoord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/JuistOnjuistVraag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/JuistOnjuistVraag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Kennistoets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Kennistoets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/KortAntwoordVraag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/KortAntwoordVraag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Lokaal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Lokaal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/TestData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/UitvoeringKennistoets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/UitvoeringKennistoets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/oose/ooad/odinido/Kennistoets.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oose/ooad/odinido/Kennistoets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/oose/ooad/odinido/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oose/ooad/odinido/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/oose/ooad/odinido/UitvoeringKennistoets.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oose/ooad/odinido/UitvoeringKennistoets.class" afterDir="false" />
-    </list>
+    <list default="true" id="3aa3f837-11d5-4dab-a452-3f6afdf206ba" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +14,7 @@
     <session id="-1968877810">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.opened" value="2" />
@@ -38,12 +22,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="55" />
+          <entry key="java" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="55" />
+          <entry key="JAVA" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -76,10 +60,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/JuistOnjuistVraag.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Alternatief.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+            <state relative-caret-position="255">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -184,7 +168,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539766969044" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539766971384" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -233,16 +217,15 @@
       <option name="presentableId" value="Default" />
       <updated>1539593763017</updated>
       <workItem from="1539593765864" duration="6267000" />
-      <workItem from="1539759853119" duration="4912000" />
+      <workItem from="1539759853119" duration="5087000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11179000" />
+    <option name="totallyTimeSpent" value="11354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -253,7 +236,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.32907802" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -283,13 +266,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Alternatief.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/TekstAntwoord.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -370,6 +346,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/JuistOnjuistVraag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/KortAntwoordVraag.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -377,10 +360,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/JuistOnjuistVraag.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Alternatief.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        <state relative-caret-position="255">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
         </state>
       </provider>
     </entry>
