@@ -17,8 +17,15 @@ public class Kennistoets {
         return vragen;
     }
 
+    public void setAntwoord(String antwoord, Vraag vraag){
+        vraag.setGegevenAntwoord(antwoord);
+    }
+
     public String toString(){
         return toetscode + " " + titel + " " + vragen.toString();
     }
 
+    public String getVraagData(Vraag v) {
+        return v.toString();
+    }
 }

@@ -11,9 +11,9 @@ public class UitvoeringKennistoets {
     }
 
     public void uitvoerenKennistoets(String lokaalCode, String studentennaam){
-        Lokaal l = getLokaal(lokaalCode);
-        Kennistoets k = getKennistoets();
-        l.uitvoerenKennistoets(studentennaam, kennistoets);
+        Lokaal lokaal = getLokaal(lokaalCode);
+        Kennistoets toets = getKennistoets();
+        lokaal.uitvoerenKennistoets(studentennaam, toets);
     }
 
     public Lokaal getLokaal(String lokaalCode) {

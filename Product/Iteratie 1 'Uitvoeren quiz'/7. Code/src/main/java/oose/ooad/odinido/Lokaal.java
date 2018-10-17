@@ -7,6 +7,7 @@ public class Lokaal {
     private String code;
     private ArrayList<Student> studenten;
 
+
     public Lokaal(String code) {
         this.code = code;
         studenten = new ArrayList<Student>();
@@ -25,4 +26,5 @@ public class Lokaal {
         voegStudentToe(student);
         student.uitvoerenKennistoets(kennistoets);
     }
+
 }

@@ -7,6 +7,7 @@ public class TestData {
     private Lokaal lokaal;
     private ArrayList<Vraag> vragen;
     private ArrayList alternatieven;
+    private ArrayList tekstAntwoorden;
 
     public TestData() {
         {
@@ -22,6 +23,14 @@ public class TestData {
                     add(new Alternatief(true, "Het boven tafel krijgen van de needs van belanghebbenden", "A"));
                     add(new Alternatief(false, "Het documenteren van de needs van belanghebbenden.", "B"));
                     add(new Alternatief(false, "Het valideren van de needs van belanghebbenden.", "C"));
+                }}));
+                add(new KortAntwoordVraag(3, "Welke term wordt gebruikt voor ‘the ability to describe and follow the life of a requirement, in both\n" +
+                        "forwards and backwards direction’?"
+                        , tekstAntwoorden = new ArrayList<TekstAntwoord>() {{
+                    add(new TekstAntwoord("traceability"));
+                    add(new TekstAntwoord("tracebility"));
+                    add(new TekstAntwoord("traceabillity"));
+                    add(new TekstAntwoord("tracebillity"));
                 }}));
             }};
         }
