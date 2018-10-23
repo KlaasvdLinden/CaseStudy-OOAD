@@ -9,7 +9,7 @@ public class JuistOnjuistVraag extends Vraag {
         this.tekstAntwoorden = tekstAntwoorden;
     }
 
-    public boolean isCorrect() {
+    public boolean isCorrect(String gegevenAntwoord) {
         return false;
     }
 }

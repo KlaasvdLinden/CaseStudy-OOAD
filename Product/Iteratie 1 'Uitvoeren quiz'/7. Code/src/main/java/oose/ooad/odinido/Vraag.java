@@ -3,7 +3,6 @@ package oose.ooad.odinido;
 public abstract class Vraag {
     protected int id;
     protected String tekstVraag;
-    protected String gegevenAntwoord;
 
     public Vraag(int id, String tekstVraag){
         this.id = id;
@@ -14,15 +13,9 @@ public abstract class Vraag {
         return tekstVraag;
     }
 
-    public String getGegevenAntwoord() {
-        return gegevenAntwoord;
-    }
+    public int getId(){ return id;}
 
-    public void setGegevenAntwoord(String gegevenAntwoord) {
-        this.gegevenAntwoord = gegevenAntwoord;
-    }
-
-    public abstract boolean isCorrect();
+    public abstract boolean isCorrect(String gegevenAntwoord);
 
     public String toString(){
         return id + " " + tekstVraag + "\n";

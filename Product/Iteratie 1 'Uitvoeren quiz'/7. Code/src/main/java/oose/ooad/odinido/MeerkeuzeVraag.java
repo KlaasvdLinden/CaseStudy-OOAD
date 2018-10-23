@@ -10,7 +10,7 @@ public class MeerkeuzeVraag extends Vraag {
         this.alternatieven = alternatieven;
     }
 
-    public boolean isCorrect() {
+    public boolean isCorrect(String gegevenAntwoord) {
         String correctAntwoord = "";
         for (Alternatief alternatief : alternatieven) {
             if (alternatief.getCorrect() == true) {

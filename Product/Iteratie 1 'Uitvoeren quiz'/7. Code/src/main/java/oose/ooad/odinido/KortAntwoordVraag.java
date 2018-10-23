@@ -10,7 +10,7 @@ public class KortAntwoordVraag extends Vraag {
         this.antwoorden = antwoorden;
     }
 
-    public boolean isCorrect() {
+    public boolean isCorrect(String gegevenAntwoord) {
         for (TekstAntwoord tekstAntwoord : antwoorden) {
             if (gegevenAntwoord.equalsIgnoreCase(tekstAntwoord.getTekstAntwoord())) {
                 return true;
