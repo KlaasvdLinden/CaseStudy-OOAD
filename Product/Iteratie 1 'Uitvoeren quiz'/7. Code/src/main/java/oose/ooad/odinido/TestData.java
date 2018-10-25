@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class TestData {
     private Kennistoets kennistoets;
-    private Lokaal lokaal;
+    private UitvoeringKennistoets uitvoeringKennistoets;
     private ArrayList<Vraag> vragen;
     private ArrayList alternatieven;
     private ArrayList tekstAntwoorden;
@@ -37,14 +37,11 @@ public class TestData {
         String titel = "Requirements";
         String kennistoetsCode = "ODI-23644129";
         kennistoets = new Kennistoets(kennistoetsCode, titel, vragen);
+        uitvoeringKennistoets = new UitvoeringKennistoets(kennistoets);
 
-        String lokaalCode = "123AB";
-        lokaal = new Lokaal(lokaalCode);
+
     }
 
-    public Lokaal getLokaal(){
-        return lokaal;
-    }
     public Kennistoets getKennistoets(){
         return kennistoets;
     }
@@ -54,4 +51,7 @@ public class TestData {
     }
 
 
+    public UitvoeringKennistoets getUitvoeringKennistoets() {
+        return uitvoeringKennistoets;
+    }
 }

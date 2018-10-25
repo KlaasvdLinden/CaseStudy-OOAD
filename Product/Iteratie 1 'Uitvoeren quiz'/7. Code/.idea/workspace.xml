@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aa3f837-11d5-4dab-a452-3f6afdf206ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/GegevenAntwoord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/LokaalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3. Fully-dressed en activity flow/~$lly dressed use cases.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4. Domeinmodel (deel 1)/Domainmodel V2.asta" beforeDir="false" afterPath="$PROJECT_DIR$/../4. Domeinmodel (deel 1)/Domainmodel V2.asta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5. Sequence diagram/Uitvoeren kennistoets.asta" beforeDir="false" afterPath="$PROJECT_DIR$/../5. Sequence diagram/Uitvoeren kennistoets.asta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6. Design-class diagram (deel 1)/Design-class diagram V2.asta" beforeDir="false" afterPath="$PROJECT_DIR$/../6. Design-class diagram (deel 1)/Design-class diagram V2.asta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Lokaal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Lokaal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/TestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/UitvoeringKennistoets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/UitvoeringKennistoets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Vraag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Vraag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oose/ooad/odinido/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oose/ooad/odinido/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oose/ooad/odinido/Lokaal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oose/ooad/odinido/Lokaal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oose/ooad/odinido/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oose/ooad/odinido/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oose/ooad/odinido/TestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oose/ooad/odinido/TestData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oose/ooad/odinido/UitvoeringKennistoets.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oose/ooad/odinido/UitvoeringKennistoets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oose/ooad/odinido/Vraag.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oose/ooad/odinido/Vraag.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,34 +34,34 @@
     <session id="-1968877810">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.16" value="1" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="70" />
+          <entry key="java" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="70" />
+          <entry key="JAVA" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="13" />
-          <entry key="java" value="5160" />
+          <entry key="java" value="6330" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5160" />
+          <entry key="JAVA" value="6330" />
           <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
@@ -56,22 +74,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/KortAntwoordVraag.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/TestData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Alternatief.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="102">
+              <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
               <folding>
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#2401#2402#0" expanded="true" />
+                <element signature="e#2445#2446#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+            <state relative-caret-position="136">
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -89,66 +98,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="476">
+              <caret line="30" column="68" lean-forward="true" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
               <folding>
-                <element signature="e#1097#1098#0" expanded="true" />
-                <element signature="e#1154#1155#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/TestData.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/GegevenAntwoord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="221">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/MeerkeuzeVraag.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/LokaalController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Lokaal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/JuistOnjuistVraag.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Vraag.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Kennistoets.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="408">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -169,17 +141,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Antwoord.java" />
-        <option value="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Alternatief.java" />
-        <option value="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/UitvoeringKennistoets.java" />
         <option value="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/TekstAntwoord.java" />
-        <option value="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Lokaal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/TestData.java" />
         <option value="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Kennistoets.java" />
-        <option value="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Vraag.java" />
         <option value="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/KortAntwoordVraag.java" />
         <option value="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/MeerkeuzeVraag.java" />
         <option value="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/JuistOnjuistVraag.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/TestData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Lokaal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/LokaalController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/GegevenAntwoord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Vraag.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/UitvoeringKennistoets.java" />
         <option value="$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Student.java" />
       </list>
     </option>
@@ -209,7 +183,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -248,12 +221,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539766971384" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540479322114" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -307,16 +281,19 @@
       <workItem from="1540202045139" duration="174000" />
       <workItem from="1540278613236" duration="131000" />
       <workItem from="1540292267301" duration="1513000" />
+      <workItem from="1540363868965" duration="27000" />
+      <workItem from="1540476684018" duration="2703000" />
+      <workItem from="1540479515087" duration="814000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13306000" />
+    <option name="totallyTimeSpent" value="16850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2671141" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27919462" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -363,45 +340,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/UitvoeringKennistoets.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/KortAntwoordVraag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Vraag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Kennistoets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/JuistOnjuistVraag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Lokaal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -409,6 +351,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/JuistOnjuistVraag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -423,27 +372,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/TestData.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Kennistoets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="278">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/KortAntwoordVraag.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/UitvoeringKennistoets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
+        <state relative-caret-position="136">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Lokaal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/TestData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding>
+            <element signature="e#2401#2402#0" expanded="true" />
+            <element signature="e#2445#2446#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Vraag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/LokaalController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/GegevenAntwoord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/oose/ooad/odinido/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="476">
+          <caret line="30" column="68" lean-forward="true" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
           <folding>
-            <element signature="e#1097#1098#0" expanded="true" />
-            <element signature="e#1154#1155#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

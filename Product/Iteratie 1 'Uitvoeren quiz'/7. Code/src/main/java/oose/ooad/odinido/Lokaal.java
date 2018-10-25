@@ -5,11 +5,13 @@ import java.util.ArrayList;
 public class Lokaal {
 
     private String code;
+    private UitvoeringKennistoets uitvoeringKennistoets;
     private ArrayList<Student> studenten;
 
 
-    public Lokaal(String code) {
+    public Lokaal(String code, UitvoeringKennistoets uitvoeringKennistoets) {
         this.code = code;
+        this.uitvoeringKennistoets = uitvoeringKennistoets;
         studenten = new ArrayList<Student>();
     }
 
@@ -21,10 +23,11 @@ public class Lokaal {
         studenten.add(student);
     }
 
-    public void uitvoerenKennistoets(String studentnaam, Kennistoets kennistoets) {
+    public void uitvoerenKennistoets(String studentnaam) {
         Student student = new Student(studentnaam);
         voegStudentToe(student);
-        student.uitvoerenKennistoets(kennistoets);
+        Kennistoets toets = uitvoeringKennistoets.getKennistoets();
+        student.uitvoerenKennistoets(toets);
     }
 
 }

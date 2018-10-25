@@ -4,7 +4,8 @@ public class App {
 
     public static  void main(String [] args){
         TestData testData = new TestData();
-        UitvoeringKennistoets uitvoeringKennistoets = new UitvoeringKennistoets(testData.getKennistoets(), testData.getLokaal());
-        uitvoeringKennistoets.uitvoerenKennistoets("123AB", "Piet");
+        Lokaal lokaal = new Lokaal("123", testData.getUitvoeringKennistoets());
+        LokaalController lokaalController = new LokaalController(lokaal);
+        lokaalController.uitvoerenKennistoets("123", "Klaas");
     }
 }
