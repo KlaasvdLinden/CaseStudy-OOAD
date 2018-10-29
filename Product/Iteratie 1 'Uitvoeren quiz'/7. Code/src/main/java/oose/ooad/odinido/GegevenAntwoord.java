@@ -1,12 +1,14 @@
 package oose.ooad.odinido;
 
 public class GegevenAntwoord {
-    String tekstAntwoord;
-    String studentnaam;
+    private String tekstAntwoord;
+    private String studentnaam;
+    private Vraag vraag;
 
-    GegevenAntwoord(String tekstAntwoord, String studentnaam){
+    GegevenAntwoord(String tekstAntwoord, String studentnaam, Vraag vraag){
         this.tekstAntwoord = tekstAntwoord;
         this.studentnaam = studentnaam;
+        this.vraag = vraag;
     }
 
     public String getTekstAntwoord(){
@@ -15,5 +17,9 @@ public class GegevenAntwoord {
 
     public String getStudentnaam(){
         return studentnaam;
+    }
+
+    public Vraag getVraag(){
+        return vraag;
     }
 }

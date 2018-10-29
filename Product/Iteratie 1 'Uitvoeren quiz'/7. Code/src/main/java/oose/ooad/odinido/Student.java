@@ -6,29 +6,37 @@ import java.util.Scanner;
 public class Student {
 
     private String studentnaam;
+    private ArrayList<GegevenAntwoord> gegevenAntwoorden;
+    private Scanner scanner;
 
     public Student(String studentnaam) {
         this.studentnaam = studentnaam;
+        this.gegevenAntwoorden = new ArrayList<GegevenAntwoord>();
+        this.scanner = new Scanner(System.in);
     }
 
 
     public void uitvoerenKennistoets(Kennistoets kennistoets) {
-        Scanner scanner = new Scanner(System.in);
-
-        for (Vraag v : kennistoets.getVragen()) {
-            String vraagData = kennistoets.getVraagData(v);
+        for (Vraag vraag : kennistoets.getVragen()) {
+            String vraagData = kennistoets.getVraagData(vraag);
             System.out.println(vraagData);
-            String antwoord = scanner.nextLine();
-            GegevenAntwoord gegevenAntwoord = new GegevenAntwoord(antwoord, studentnaam);
-            v.addGegevenAntwoord(gegevenAntwoord);
+            String tekstAntwoord = getInput();
+            GegevenAntwoord gegevenAntwoord = new GegevenAntwoord(tekstAntwoord, studentnaam, vraag);
+            voegGegevenAntwoordToe(gegevenAntwoord);
         }
         System.out.println("Klaar met toets");
-        for (Vraag vraag : kennistoets.getVragen()) {
-            Vraag v = vraag;
-            System.out.print(v.getId() + ". ");
-            String antwoord = v.getGegevenAntwoord(studentnaam);
-            System.out.println(v.getTekstVraag() + " Gegeven antwoord: " + antwoord);
-            System.out.println("TekstAntwoord correct? " + v.isCorrect(antwoord));
+        for(GegevenAntwoord gegevenAntwoord : gegevenAntwoorden){
+            Vraag vraag = gegevenAntwoord.getVraag();
+            System.out.println("Het gegevenanntwoord bij " + vraag.getTekstVraag() + " is: " + gegevenAntwoord.getTekstAntwoord());
+            System.out.println(vraag.isCorrect(gegevenAntwoord.getTekstAntwoord()));
         }
+    }
+
+    private void voegGegevenAntwoordToe(GegevenAntwoord gegevenAntwoord){
+        this.gegevenAntwoorden.add(gegevenAntwoord);
+    }
+
+    private String getInput(){
+        return scanner.nextLine();
     }
 }

@@ -1,0 +1,6 @@
+-Verwerken betaling strategy pattern
+-Berekenen score strategy pattern
+-Uitvoeren teamgevecht overerving?
+
+-Boolean bij uitvoerking kennistoets of toets bezig is
+-Boolean bij student of student bezig is

@@ -19,7 +19,7 @@ public class KortAntwoordVraag extends Vraag {
         return false;
     }
 
-    public String toString() {
+    public String getData() {
         return id + " " + tekstVraag + "\n";
     }
 }

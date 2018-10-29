@@ -22,6 +22,6 @@ public class Kennistoets {
     }
 
     public String getVraagData(Vraag v) {
-        return v.toString();
+        return v.getData();
     }
 }

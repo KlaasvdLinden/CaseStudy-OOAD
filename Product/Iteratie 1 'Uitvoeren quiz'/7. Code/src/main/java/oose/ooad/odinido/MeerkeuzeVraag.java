@@ -24,7 +24,7 @@ public class MeerkeuzeVraag extends Vraag {
         }
     }
 
-    public String toString() {
+    public String getData() {
         return id + " " + tekstVraag + "\n" + alternatieven.toString();
     }
 
