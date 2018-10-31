@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class TestData {
     private Kennistoets kennistoets;
-    private UitvoeringKennistoets uitvoeringKennistoets;
+    private Uitvoering uitvoering;
     private ArrayList<Vraag> vragen;
     private ArrayList alternatieven;
     private ArrayList tekstAntwoorden;
@@ -37,7 +37,7 @@ public class TestData {
         String titel = "Requirements";
         String kennistoetsCode = "ODI-23644129";
         kennistoets = new Kennistoets(kennistoetsCode, titel, vragen);
-        uitvoeringKennistoets = new UitvoeringKennistoets(kennistoets);
+        uitvoering = new UitvoeringKennistoets(10, kennistoets);
 
 
     }
@@ -51,7 +51,7 @@ public class TestData {
     }
 
 
-    public UitvoeringKennistoets getUitvoeringKennistoets() {
-        return uitvoeringKennistoets;
+    public Uitvoering getUitvoering() {
+        return uitvoering;
     }
 }

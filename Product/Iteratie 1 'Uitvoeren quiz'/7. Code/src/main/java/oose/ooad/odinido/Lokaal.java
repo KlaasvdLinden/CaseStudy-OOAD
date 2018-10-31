@@ -1,16 +1,15 @@
 package oose.ooad.odinido;
 
-import java.util.ArrayList;
 
 public class Lokaal {
 
     private String code;
-    private UitvoeringKennistoets uitvoeringKennistoets;
+    private Uitvoering uitvoering;
 
 
-    public Lokaal(String code, UitvoeringKennistoets uitvoeringKennistoets) {
+    public Lokaal(String code, Uitvoering uitvoering) {
         this.code = code;
-        this.uitvoeringKennistoets = uitvoeringKennistoets;
+        this.uitvoering = uitvoering;
     }
 
     public String getCode() {
@@ -18,8 +17,8 @@ public class Lokaal {
     }
 
 
-    public void uitvoerenKennistoets(String studentnaam) {
-        uitvoeringKennistoets.uitvoerenKennistoets(studentnaam);
+    public void uitvoerenKennistoets(String naam) {
+        uitvoering.uitvoerenToets(naam);
     }
 
 }

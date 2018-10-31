@@ -1,24 +1,21 @@
 package oose.ooad.odinido;
 
-import java.util.ArrayList;
 
-public class UitvoeringKennistoets {
-    private long tijd;
-    private Kennistoets kennistoets;
-    private ArrayList<Student> studenten;
+public class UitvoeringKennistoets extends  Uitvoering {
 
-    public UitvoeringKennistoets(Kennistoets kennistoets) {
-        this.kennistoets = kennistoets;
-        this.studenten = new ArrayList<Student>();
+    public UitvoeringKennistoets(int tijd, Kennistoets kennistoets) {
+        super(tijd, kennistoets);
     }
 
-    public void voegStudentToe(Student student){
-        studenten.add(student);
-    }
 
-    public void uitvoerenKennistoets(String studentnaam){
-        Student student = new Student(studentnaam);
-        voegStudentToe(student);
+    @Override
+    public void uitvoerenToets(String naam) {
+        Student student = new Student(naam);
+        voegUitvoerendeToe(student);
         student.uitvoerenKennistoets(kennistoets);
+    }
+
+    protected void voegUitvoerendeToe(Uitvoerende uitvoerende) {
+        uitvoerenden.add(uitvoerende);
     }
 }
